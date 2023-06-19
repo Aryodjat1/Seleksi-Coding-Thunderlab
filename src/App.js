@@ -62,8 +62,8 @@ const App = () => {
   const completedTodoNum = todoList.filter((todo) => todo.done).length;
   const totalTodos = todoList.length;
 
-  return (
-    <div>
+  return (    
+    <div className='mobile-view'>
       <Header completedTodoNum={completedTodoNum} totalTodos={totalTodos} />
       <main>
         <TodoInput

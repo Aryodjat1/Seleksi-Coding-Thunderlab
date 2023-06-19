@@ -1,6 +1,6 @@
 :root {
-    --color-background: #E5E5E5;
-    --color-main: #DCCDD1;
+    --color-background: #C2DEDC;
+    --color-main: #ECE5C7;
 
     --font-size-extra-large: 90px;
     --font-size-large: 60px;
@@ -11,12 +11,12 @@
     --side-margin: 20px;
 
     --max-width: 700px;
-    --min-width: 500px;
+    --min-width: 400px;
     --common-width: 60%;
 }
 
 * {
-    color: black;
+    color: #116A7B;
     font-family: "Product Sans", Arial, Helvetica, sans-serif;
     border: 0;
     padding: 0;
@@ -25,17 +25,15 @@
     user-select: none;
 }
 
-top {
+.mobile-view {
     width: var(--common-width);
     min-width: var(--min-width);
     max-width: var(--max-width);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-
-up {
-    height: 240px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -82,8 +80,6 @@ button {
     background-color: inherit;
     color: #3a3535;
 }
-
-
 
 .listItem {
     display: flex;

@@ -3,7 +3,10 @@ import React from 'react'
 const Header = ({ completedTodoNum, totalTodos }) => {
     return (
       <header>
+        <div>
         <h1>Todos</h1>
+        <p>Todo List App Using React.</p>
+        </div>        
         <div id="todoStatus">
           <div id="totalComp">
             <span id="totalCompleted" className="countData">
