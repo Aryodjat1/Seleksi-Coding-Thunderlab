@@ -94,7 +94,7 @@ button {
     margin: var(--global-margin) var(--side-margin);
 }
 
-#todoList, #todoInput {
+.todoList, #todoInput {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

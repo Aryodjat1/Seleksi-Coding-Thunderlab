@@ -71,15 +71,15 @@ const App = () => {
           handleNewTodoNameChange={(e) => setNewTodoName(e.target.value)}
           handleAddTodo={addTodo}
         />
-        <div id="todoList">
-          {todoList.map((todo) => (
-            <TodoItem
-              key={todo.id}
-              todo={todo}
-              handleToggleTodo={toggleTodo}
-              handleRemoveTodo={removeTodo}
-            />
-          ))}
+        <div id="">                    
+            {todoList.map((todo) => (
+              <TodoItem
+                key={todo.id}
+                todo={todo}
+                handleToggleTodo={toggleTodo}
+                handleRemoveTodo={removeTodo}
+              />
+            ))}          
         </div>
       </main>
     </div>
